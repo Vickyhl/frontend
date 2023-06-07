@@ -72,85 +72,93 @@ const Routes1 = () => {
   let userData = localStorage.getItem("user");
 
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/myProfile" element={<Profile />} />
-      <Route path="/HealthDec" element={<HealthDec />} />
-      <Route path="/TermsOfUse" element={<TermsOfUse />} />
-      <Route path="/home" element={<Home />} />
-      <Route path="/register" element={<Register />} />
-      <Route path="/ForgotPassword" element={<ForgotPassword />} />
-      <Route path="/resetPassword" element={<ResetPassword />} />
-      <Route path="/:userId/menus" element={<UserMenus />} />
-      <Route path="/watchMenu" element={<MenuList />} />
-      <Route path="/menu/:mid" element={<Menu />} />
-      <Route path="/recipesMenu/:mid" element={<RecipesMenu />} />
-      <Route path="/recipe/:rid" element={<Recipe />} />
-      <Route path="/watchRecipesMenu" element={<WatchRecipesMenu />} />
-      <Route path="/watchSnack/:type" element={<Snack />} />
-      <Route path="/checkout" element={<CheckoutForm />} />
-      <Route path="/card/:t" element={<Card />} />
-      <Route path="/receipt/:type" element={<Receipt />} />
-      <Route path="/About" element={<About />} />
-      <Route path="/donation" element={<Donation />} />
-      <Route path="/articles" element={<Articles />} />
-      <Route path="/contactUs" element={<Contact />} />
-      <Route path="/cityChoice" element={<CityChoice />} />
-      <Route path="/gymMaps/:country/:city" element={<GymMaps />} />
-      <Route path="/editProfile" element={<EditProfile />} />
-      <Route path="/ExTemplate" element={<ExTemplate />} />
-      <Route path="/cooking/:rid" element={<Cook />} />
-      <Route path="/nutrients/:rName/:rid" element={<Nutrients />} />
-      <Route path="/weightTrack" element={<WeightTrack />} />
-      <Route path="/watchGrocery" element={<WachGrocery />} />
-      <Route path="/editGrocery" element={<EditGrocery />} />
-      <Route path="/showRegMenus" element={<DietitianWatchRegularMenus />} />
-      <Route path="/editMenu/:mid" element={<EditRegularMenu />} />
-      <Route path="/dietician/:mid" element={<DieticianWatchRecMenu />} />
+    <Router basename="https://eatandfit.onrender.com/">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/myProfile" element={<Profile />} />
+        <Route path="/HealthDec" element={<HealthDec />} />
+        <Route path="/TermsOfUse" element={<TermsOfUse />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/ForgotPassword" element={<ForgotPassword />} />
+        <Route path="/resetPassword" element={<ResetPassword />} />
+        <Route path="/:userId/menus" element={<UserMenus />} />
+        <Route path="/watchMenu" element={<MenuList />} />
+        <Route path="/menu/:mid" element={<Menu />} />
+        <Route path="/recipesMenu/:mid" element={<RecipesMenu />} />
+        <Route path="/recipe/:rid" element={<Recipe />} />
+        <Route path="/watchRecipesMenu" element={<WatchRecipesMenu />} />
+        <Route path="/watchSnack/:type" element={<Snack />} />
+        <Route path="/checkout" element={<CheckoutForm />} />
+        <Route path="/card/:t" element={<Card />} />
+        <Route path="/receipt/:type" element={<Receipt />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/donation" element={<Donation />} />
+        <Route path="/articles" element={<Articles />} />
+        <Route path="/contactUs" element={<Contact />} />
+        <Route path="/cityChoice" element={<CityChoice />} />
+        <Route path="/gymMaps/:country/:city" element={<GymMaps />} />
+        <Route path="/editProfile" element={<EditProfile />} />
+        <Route path="/ExTemplate" element={<ExTemplate />} />
+        <Route path="/cooking/:rid" element={<Cook />} />
+        <Route path="/nutrients/:rName/:rid" element={<Nutrients />} />
+        <Route path="/weightTrack" element={<WeightTrack />} />
+        <Route path="/watchGrocery" element={<WachGrocery />} />
+        <Route path="/editGrocery" element={<EditGrocery />} />
+        <Route path="/showRegMenus" element={<DietitianWatchRegularMenus />} />
+        <Route path="/editMenu/:mid" element={<EditRegularMenu />} />
+        <Route path="/dietician/:mid" element={<DieticianWatchRecMenu />} />
 
-      <Route path="/men/beginners" element={<MenBeg />} />
-      <Route path="/men/advanced" element={<MenAdv />} />
-      <Route path="/women/beginners" element={<WomenBeg />} />
-      <Route path="/women/advanced" element={<WomenAdv />} />
+        <Route path="/men/beginners" element={<MenBeg />} />
+        <Route path="/men/advanced" element={<MenAdv />} />
+        <Route path="/women/beginners" element={<WomenBeg />} />
+        <Route path="/women/advanced" element={<WomenAdv />} />
 
-      <Route path="/legsMenBegExercise" element={<LegsExMenBeg />} />
-      <Route path="/chestMenBegExercise" element={<ChestExMenBeg />} />
-      <Route path="/backHandMenBegExercise" element={<BackHandMenBegEx />} />
-      <Route path="/backMenBegExercise" element={<BackMenBegEx />} />
-      <Route path="/shouldersMenBegExercise" element={<ShouldersMenBegEx />} />
-      <Route path="/frontHandMenBegExercise" element={<FrontHandMenBegEx />} />
+        <Route path="/legsMenBegExercise" element={<LegsExMenBeg />} />
+        <Route path="/chestMenBegExercise" element={<ChestExMenBeg />} />
+        <Route path="/backHandMenBegExercise" element={<BackHandMenBegEx />} />
+        <Route path="/backMenBegExercise" element={<BackMenBegEx />} />
+        <Route
+          path="/shouldersMenBegExercise"
+          element={<ShouldersMenBegEx />}
+        />
+        <Route
+          path="/frontHandMenBegExercise"
+          element={<FrontHandMenBegEx />}
+        />
 
-      <Route path="/menAdvChest" element={<MenAdvChest />} />
-      <Route path="/menAdvBackHand" element={<MenAdvBackHand />} />
-      <Route path="/menAdvShoulders" element={<MenAdvShoulders />} />
-      <Route path="/menAdvBack" element={<MenAdvBack />} />
-      <Route path="/menAdvFrontHand" element={<MenAdvFrontHand />} />
-      <Route path="/menAdvLegs" element={<MenAdvLegs />} />
+        <Route path="/menAdvChest" element={<MenAdvChest />} />
+        <Route path="/menAdvBackHand" element={<MenAdvBackHand />} />
+        <Route path="/menAdvShoulders" element={<MenAdvShoulders />} />
+        <Route path="/menAdvBack" element={<MenAdvBack />} />
+        <Route path="/menAdvFrontHand" element={<MenAdvFrontHand />} />
+        <Route path="/menAdvLegs" element={<MenAdvLegs />} />
 
-      <Route path="/womenBegBackLeg" element={<WomenBegBackLeg />} />
-      <Route path="/womenBegFrontLeg" element={<WomenBegFrontLeg />} />
-      <Route path="/womenBegBack" element={<WomenBegBack />} />
-      <Route path="/womenBegFrontHand" element={<WomenBegFrontHand />} />
-      <Route path="/womenBegBackHand" element={<WomenBegBackHand />} />
+        <Route path="/womenBegBackLeg" element={<WomenBegBackLeg />} />
+        <Route path="/womenBegFrontLeg" element={<WomenBegFrontLeg />} />
+        <Route path="/womenBegBack" element={<WomenBegBack />} />
+        <Route path="/womenBegFrontHand" element={<WomenBegFrontHand />} />
+        <Route path="/womenBegBackHand" element={<WomenBegBackHand />} />
 
-      <Route path="/womenAdvBackLeg" element={<WomenAdvBackLeg />} />
-      <Route path="/womenAdvFrontLeg" element={<WomenAdvFrontLeg />} />
-      <Route path="/womenAdvBack" element={<WomenAdvBack />} />
-      <Route path="/womenAdvFrontHand" element={<WomenAdvFrontHand />} />
-      <Route path="/womenAdvBackHand" element={<WomenAdvBackHand />} />
-      <Route path="/womenAdvBackLeg2" element={<WomenAdvBackLeg2 />} />
+        <Route path="/womenAdvBackLeg" element={<WomenAdvBackLeg />} />
+        <Route path="/womenAdvFrontLeg" element={<WomenAdvFrontLeg />} />
+        <Route path="/womenAdvBack" element={<WomenAdvBack />} />
+        <Route path="/womenAdvFrontHand" element={<WomenAdvFrontHand />} />
+        <Route path="/womenAdvBackHand" element={<WomenAdvBackHand />} />
+        <Route path="/womenAdvBackLeg2" element={<WomenAdvBackLeg2 />} />
 
-      <Route
-        path="https://eatandfit.onrender.com/login"
-        element={userData === "undefined" || !userData ? <Login /> : <Home />}
-      />
-      <Route
-        path="/createMenu"
-        element={
-          userData === "undefined" || !userData ? <Login /> : <CreateMenu />
-        }
-      />
-    </Routes>
+        <Route
+          path="https://eatandfit.onrender.com/login"
+          element={userData === "undefined" || !userData ? <Login /> : <Home />}
+        />
+        <Route
+          path="/createMenu"
+          element={
+            userData === "undefined" || !userData ? <Login /> : <CreateMenu />
+          }
+        />
+      </Routes>
+    </Router>
   );
 };
 
