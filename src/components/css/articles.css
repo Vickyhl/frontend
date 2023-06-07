@@ -1,0 +1,43 @@
+.art1 {
+    background-image: url("../images/art1.png");
+    background-size:cover;
+}
+
+.art2 {
+    background-image: url("../images/art2.jpeg");
+    background-size:cover;
+}
+
+.art3 {
+    background-image: url("../images/art3.png");
+    background-size:cover;
+}
+
+.art4 {
+    background-image: url("../images/art4.png");
+    background-size:cover;
+}
+
+.art5 {
+    margin-top: 50px;
+    background-image: url("../images/art5.jpeg");
+    background-size:cover;
+}
+
+.art6 {
+    margin-top: 50px;
+    background-image: url("../images/art6.jpeg");
+    background-size:cover;
+}
+
+.art7 {
+    margin-top: 50px;
+    background-image: url("../images/art7.jpeg");
+    background-size:cover;
+}
+
+.art8 {
+    margin-top: 50px;
+    background-image: url("../images/art8.jpeg");
+    background-size:cover;
+}

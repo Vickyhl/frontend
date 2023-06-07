@@ -1,0 +1,84 @@
+.tileRecipes {
+  position: relative;
+
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ccc;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  background-image: url("../images/tileImg.jpeg");
+  background-size: cover;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.recipes-tile {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+.recipesText {
+  bottom: -55px;
+  left: 20px;
+  position: absolute;
+  margin: 0;
+}
+ 
+h1.recipesHeader {
+  margin-top: 150px;
+  width: 1519px;
+  margin-bottom: 40px;
+}
+
+h1.mealsHeader {
+  width: 1519px;
+  margin-bottom: -40px;
+}
+
+.tileRecipes:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.tile:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.tile-content {
+  padding: 10px;
+  text-align: center;
+}
+
+.tile-content h3 {
+  width: 700px;
+  margin: 0;
+  display: inline-block;
+}
+
+.tile a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  height: 0px;
+  width: 100%;
+}
+
+.fetch-button {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 20px 0;
+}  

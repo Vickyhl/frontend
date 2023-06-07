@@ -1,0 +1,12 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+
+    margin: 0 auto; /* Add this line */
+    text-align: center; /* Add this line */
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  

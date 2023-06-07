@@ -1,0 +1,73 @@
+ .recipeStrong {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+ }
+ 
+ .recipe-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+  }
+  
+  ul.recipe {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  li.recipe {
+    display: flex;
+    text-align: center;
+    float:none;
+    word-break: break-all;
+    align-items: center;
+  }
+
+  ul.recipe-checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    align-items: center;
+  }
+
+
+  strong.instructions {
+    margin-right: 800px;
+  }
+
+  ul.recipe-instructions {
+    display: flex;
+    align-items:center;
+    list-style-type: none;
+    flex-direction:column;
+    margin:auto;
+    text-align:center;
+    list-style-type: none;
+    float:none;
+  }
+
+  li.recipe-instructions {
+    width: 900px;
+    display: -webkit-inline-box;
+    text-align: initial;
+    float:none;
+  }
+
+  .timer-button {
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    color: #111;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 3px;
+  }
+  

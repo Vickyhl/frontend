@@ -1,0 +1,57 @@
+.showRecipes {
+    display: inline-block;
+    padding: 0.8rem 1.4rem;
+    margin: -0.5rem;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.menu-div {
+    display: flex;
+    align-items: center;
+}
+
+.menu-div input[type="text"] {
+    margin-right: 5px;
+}
+
+.editMenuBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -455px;
+}
+
+h2.editMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    height: 30px;
+}
+
+h3.editMenu {
+    text-align: center;
+    width: 140px;
+    margin-bottom: 50px;
+}
+
+.edit-menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto; 
+    height: 2500px;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 200px;
+    padding: 2px;
+    margin-top: -410px;
+}

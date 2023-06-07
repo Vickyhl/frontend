@@ -1,0 +1,15 @@
+.exercise {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img.exGif {
+    width: 360px;
+    height: 360px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

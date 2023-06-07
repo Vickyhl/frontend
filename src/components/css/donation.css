@@ -1,0 +1,21 @@
+.donation {
+    /* background-image: url("./images/IDA.jpg"); */
+    /* margin-top: 150px; */
+    margin-left: 100px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.donationImg {
+    height: 320px;
+    width: 320px;
+}
+
+.donationHeader {
+    margin-top: 350px;
+}

@@ -1,0 +1,87 @@
+  .tileAdv {
+    width: 320px;
+    height: 154px;
+    background-size:cover;
+    color: black;
+    position: relative;
+    background-repeat: no-repeat;
+  }
+
+  .tile-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+  }
+
+  .tileAdv:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  }
+
+  .tileText {
+    bottom: -30px;
+    left: 20px;
+    position: absolute;
+    margin: 0;
+  }
+
+  .backLeg {
+    background-image: url("../images/backLeg.jpeg");
+    background-size:cover;
+  }
+  
+  .frontLeg {
+    background-image: url("../images/frontLeg.jpeg");
+  }
+
+  .chests {
+    background-image: url("../images/chest.jpeg");
+  }
+  
+  .backhand {
+    background-image: url("../images/backHand.jpeg");
+  }
+
+  .Shoulders {
+    background-image: url("../images/shoulders.jpeg");
+  }
+
+  .Back {
+    background-image: url("../images/back.jpeg");
+
+
+  }
+  .fronthand {
+    background-image: url("../images/frontHand.jpeg");
+  }
+
+  .leg {
+    background-image: url("../images/legs.jpeg");
+  }
+  
+  .tile:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  }
+
+    h1.menAdv {
+      width: 1519px;
+      margin-top: 150px;
+      margin-bottom: 50px;
+    }
+
+    .tile a {
+      text-decoration: none;
+      color: #000;
+      display: block;
+      height: 0px;
+      width: 100%;
+    }
+    .fetch-button {
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 20px 0;
+    }  

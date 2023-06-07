@@ -1,0 +1,38 @@
+.groceryEditBtn {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  
+  .groceryEditBtn:focus {
+    outline: none;
+  }
+  
+  .addImg {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+  }
+  
+
+.groceryRemoveBtn {
+    display: inline-block;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 0px;
+    margin-left: 10px;  
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+}
+  
+.inputBtn {
+    margin-right: 10px;
+}
+  

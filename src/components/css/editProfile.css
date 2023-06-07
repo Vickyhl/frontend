@@ -1,0 +1,21 @@
+.editProfile {
+    display: grid;
+    justify-content: center;
+}
+
+.editProIn{
+    width:auto;
+}
+
+.weightClass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Add a gap of 20 pixels between elements */
+}
+
+input.weightInput {
+    display: flex;
+    width:fit-content;
+    margin: 0 auto 20px auto; /* Add this line to center the input horizontally */
+}
