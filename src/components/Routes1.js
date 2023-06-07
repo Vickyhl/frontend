@@ -141,7 +141,7 @@ const Routes1 = () => {
       <Route path="/womenAdvBackLeg2" element={<WomenAdvBackLeg2 />} />
 
       <Route
-        path="/login"
+        path="https://eatandfit.onrender.com/login"
         element={userData === "undefined" || !userData ? <Login /> : <Home />}
       />
       <Route
