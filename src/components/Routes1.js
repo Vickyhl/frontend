@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import Login from "./Login";
 import Register from "./Register";
@@ -72,7 +72,7 @@ const Routes1 = () => {
   let userData = localStorage.getItem("user");
 
   return (
-    <Router basename="https://eatandfit.onrender.com/">
+    <HashRouter basename="https://eatandfit.onrender.com/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/myProfile" element={<Profile />} />
@@ -158,7 +158,7 @@ const Routes1 = () => {
           }
         />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 };
 
