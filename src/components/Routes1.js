@@ -72,7 +72,7 @@ const Routes1 = () => {
   let userData = localStorage.getItem("user");
 
   return (
-    <HashRouter>
+    <HashRouter basename="https://eatandfit.onrender.com/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/myProfile" element={<Profile />} />
